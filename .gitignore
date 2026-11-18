@@ -1,0 +1,23 @@
+
+# Environment secrets
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# PostgreSQL local data
+postgres/data/
+
+# Redis local data
+redis/data/
+
+# Kafka local data
+kafka/data/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
